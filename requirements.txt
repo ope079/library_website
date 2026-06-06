@@ -4,3 +4,6 @@ djangorestframework==3.17.1
 sqlparse==0.5.5
 whitenoise
 gunicorn
+uvicorn
+psycopg2-binary
+dj-database-url
