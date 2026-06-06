@@ -92,7 +92,7 @@ ASGI_APPLICATION = "django_project.asgi.application"
 DATABASES = {
     'default': dj_database_url.config(
         # Replace this value with your local database's connection string.
-        default='postgresql://postgres:postgres@localhost:5432/django_project_db',
+        default='postgresql://postgres:postgres@localhost:5432/library_website_db',
         conn_max_age=600
     )
 }
